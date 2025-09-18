@@ -18,7 +18,7 @@ sulla url locale http://127.0.0.1:5000/
 Caricare il file xml tramite il bottone "UploadFile". L'applicazione gestisce errori in caso di formato non corretto oppure
 di file corrotto
 
-![Alt text](images/startApp.png)  
+![Alt text](images/startApp2.png)  
 
 
 Dettagli di visualizzazione dei log #1
