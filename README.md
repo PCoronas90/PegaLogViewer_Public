@@ -2,12 +2,12 @@
 
 Il logViewer lasce dall'esigenza di visualizzare correttamente ed in forma tabellare gli export del tracer Pega.
 La web application creata in python, html e css (con l'utilizzo della libreria bootstrap) permette di:
-- **Caricare il file xml generato da Pega in forma tabellare
-- **Filtrare i risultati
-- **Funzionalità goToLine
-- **Dettagli di ogni riga organizzati come albero espandibile
-- **Identificazione rapida dei Fail/Exception
-- **Aggregazione sulla base di ActivityName
+- **Caricare il file xml generato da Pega in forma tabellare**
+- **Filtrare i risultati**
+- **Funzionalità goToLine**
+- **Dettagli di ogni riga organizzati come albero espandibile**
+- **Identificazione rapida dei Fail/Exception**
+- **Aggregazione sulla base di ActivityName**
 
 Lanciare lo script python python.py per far partire il server e rendere disponibile l'applicazione
 sulla url locale http://127.0.0.1:5000/
@@ -36,7 +36,7 @@ Dettagli espandibili
 Visualizzazione Errori
 ![Alt text](images/FailDetails.png)  
 
-Filtri
+Filtri  
 ![Alt text](images/Filter.png)  
 
 
