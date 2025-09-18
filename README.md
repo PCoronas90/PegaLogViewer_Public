@@ -1,42 +1,44 @@
 # Pega Log Viewer
 
-Il logViewer lasce dall'esigenza di visualizzare correttamente ed in forma tabellare gli export del tracer Pega.
-La web application creata in python, html e css (con l'utilizzo della libreria bootstrap) permette di:
-- **Caricare il file xml generato da Pega in forma tabellare**
-- **Filtrare i risultati**
-- **Funzionalità goToLine**
-- **Dettagli di ogni riga organizzati come albero espandibile**
-- **Identificazione rapida dei Fail/Exception**
-- **Aggregazione sulla base di ActivityName**
+The Pega Log Viewer was developed to address the need for a structured and user-friendly visualization of Pega Tracer XML exports. This lightweight web application, built using Python, HTML, and CSS (leveraging the Bootstrap framework), provides a set of features designed to enhance log analysis efficiency:
+## Key Features
 
-Lanciare lo script python python.py per far partire il server e rendere disponibile l'applicazione
-sulla url locale http://127.0.0.1:5000/
+-  **Tabular rendering of Pega-generated XML log files**  
+-  **Advanced filtering capabilities to isolate relevant log entries**  
+-  **GoToLine functionality for quick navigation to specific log lines**  
+-  **Expandable tree view for detailed inspection of each log entry**  
+-  **Automatic highlighting of Failures and Exceptions**  
+-  **Aggregation and grouping by ActivityName**  
+
+To launch the application, execute the Python script:  
+> python python.py
+
+This will start the local development server and make the application accessible at:
+> http://127.0.0.1:5000/
 
 ![Alt text](images/python.png)  
 
-
-Caricare il file xml tramite il bottone "UploadFile". L'applicazione gestisce errori in caso di formato non corretto oppure
-di file corrotto
-
+After launch the application, you can start to use it by uploading the xml file
+-  Use the "UploadFile" button to load a Pega Tracer XML file. The application includes error handling for Invalid file formats and Corrupted or unreadable files  
 ![Alt text](images/startApp2.png)  
 
 
-Dettagli di visualizzazione dei log #1
-![Alt text](images/View1.png)  
+-  General log view with structured rows #1  
+![Alt text](images/View1.png)
 
-
-Dettagli di visualizzazione dei log #2
+-  General log view with structured rows #2  
 ![Alt text](images/View2.png)  
 
-Dettagli espandibili
+-  Expandable details for each log entry #1  
 ![Alt text](images/Details1.png)  
 
+-  Expandable details for each log entry #2  
 ![Alt text](images/Details2.png)  
 
-Visualizzazione Errori
+-  Error and exception highlighting
 ![Alt text](images/FailDetails.png)  
 
-Filtri  
+-  Filtering interface  
 ![Alt text](images/Filter.png)  
 
 
